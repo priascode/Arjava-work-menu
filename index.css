@@ -19,11 +19,12 @@ h1 {
 
 .menu-item-active {
   width: 100%;
-  max-height:80px;
+  max-height:70px;
   padding: 25px;
   padding-left: 50px;
+  padding-bottom: 35px;
   color: #fff;
-  font-size: 25px;
+  font-size: 20px;
   font-weight:600;
   list-style-type: none;
   cursor: pointer;
@@ -34,13 +35,14 @@ h1 {
 
 .menu-item {
   width: 100%;
-  max-height:80px ;
+  max-height:70px ;
   background-color: #edebeb;
   border: 1px solid #555555;
   padding: 25px;
   padding-left: 50px;
+  padding-bottom: 35px;
   color: #555555;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 600;
   display: flex;
   justify-content: space-between;
@@ -55,7 +57,7 @@ h1 {
   /* height: 40px; */
   background-color: #edebeb;
   margin:0;
-  padding:0;
+  padding-bottom:30px;
 }
 .menu-item-active i{
   float: right;
