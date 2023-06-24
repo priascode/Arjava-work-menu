@@ -80,7 +80,7 @@ h1 {
   border-radius: 2em;
   width: 320px;
   background-color: #edebeb;
-  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.16), 0 4px 8px 0 rgba(0, 0, 0, 0.23);
+  box-shadow: 0 10px 20px 0 #00000029, 0 4px 8px 0 #0000003b;
 }
 .card-body {
   border-radius: 2em;
@@ -97,6 +97,9 @@ h1 {
 }
 .col-lg-4 {
   background-color: #edebeb;
+}
+.card-title{
+  text-transform: capitalize;
 }
 
 .menu-price {
