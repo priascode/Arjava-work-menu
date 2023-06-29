@@ -5,6 +5,7 @@ body {
   background-color: #ffffff;
 }
 
+/* main section  */
 .main{
   background: url("images/IMG-20230329-WA0022.jpg") no-repeat;
 
@@ -28,8 +29,9 @@ body {
   font-size: 60px;
   font-weight: bold;
 }
+/* main ends */
 
-
+/* heading */
 h1 {
   color: #555555;
   margin: 50px;
@@ -200,6 +202,10 @@ h1 {
  top:167px;
  left:410px;
  }
+ .stroke-transparent {
+  -webkit-text-stroke: 1.3px white;
+  -webkit-text-fill-color: transparent;
+ }
 
  /* options */
 .options{
@@ -256,11 +262,9 @@ h1 {
   padding: 20px;
 }
 .sm-handles{
-
   text-align: center;
-  color: #fff;
   font-size: 30px;
-  padding: 20px;
+  padding: 25px;
 }
 .sm-handles a{
 color: #fff;
@@ -268,9 +272,9 @@ padding:0px 5px;
 }
 
 /* contact end */
-footer i{
-  font-size: 30px;
-}
+
+
+
 
 
 /* location  */
@@ -284,7 +288,7 @@ footer i{
   color: #ff7a00;
   text-align: center;
   font-family: sans-serif;
-  font-weight: 500;
+  font-weight: 600;
 }
 .location p{
   font-size: 25px;
@@ -294,7 +298,7 @@ footer i{
   display: flex;
 }
 .location-box i {
-  /* padding-right: 20px; */
+
   font-size:30px;
   padding-right: 3px;
 
